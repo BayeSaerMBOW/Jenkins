@@ -11,3 +11,4 @@ res.end(JSON.stringify({ message: 'Hello from Node + Docker + Jenkins + Render!'
 server.listen(port, () => {
 console.log(`Server listening on port ${port}`);
 });
+module.exports = server;
